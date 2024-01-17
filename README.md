@@ -6,8 +6,7 @@ Welcome to GloBud, your smart gardening assistant! This website provides real-ti
 
 - **index.html:** Landing page introducing GloBud.
 - **features.html:** Features page showcasing the capabilities of GloBud.
-- **get-started.html:** Get Started page with a sign-up form for updates or purchase details.
-- **signup.html:** Sign-up page with registration form and basic validation.
+- **get-started.html:** Get Started page with a sign-up form.
 - **login.html:** Login page with a form and basic validation.
 
 ## Usage
@@ -24,8 +23,8 @@ Welcome to GloBud, your smart gardening assistant! This website provides real-ti
    - Sign-up form for updates or purchase details.
    - Responsive design for mobile devices.
 
-4. **Sign-up and Login Pages (signup.html and login.html):**
-   - Registration and login forms with basic validation.
+4. ** Login Page (login.html):**
+   - login forms with basic validation.
    - Validation includes:
       - Full name required during sign-up.
       - Valid email address required during sign-up and login.

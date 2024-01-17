@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login.css">
+   
+    <title>Login to GloBud</title>
+</head>
+
+<body>
+   
+    <main class="auth-section">
+        <div class="container">
+            <h1>Login to GloBud</h1>
+        </div>
+        <form id="loginForm">
+            <label for="loginEmail">Email Address:</label>
+            <input type="email" id="loginEmail" name="loginEmail" required>
+
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" name="loginPassword" required>
+
+            <button type="button" onclick="login()">Log In</button>
+        </form>
+
+        <p class="sign">Don't have an account yet? <a href="get.html">Sign up here</a>.</p>
+    </main>
+    <script  src="../app/auth.js"></script>
+</body>
+
+</html>

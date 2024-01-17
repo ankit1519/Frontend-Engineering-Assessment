@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(196, 255, 137);
+}
+
+header {
+    background-color:rgb(211, 73, 18);
+    color: #ecf0f1;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 9rem;
+    height:auto;
+}
+.container{
+    margin-top: 6rem;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+
+}
+nav ul li a:hover {
+   
+    color: rgb(45, 79, 11);
+    
+}
+
+
+.welcome-section {
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgG {
+    max-width: 20%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10%;
+
+}
+.des{
+    max-width: 50%;
+}
+.para{
+    max-width: 70%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+.intro{
+    margin-top: 2rem;
+}
+.menu-icon {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    
+    
+    
+    .imgG {
+        max-width: 30%;
+        height: auto;
+        margin-top: 3rem;
+        border-radius: 10%;
+        margin-bottom: 3rem;
+    }
+    
+}
+@media only screen and (max-width: 1000px) {
+    
+    
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-end;
+    }
+    .para{
+        max-width: 100%;
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .imgG {
+        max-width: 40%;
+        height: auto;
+        margin-top: 3rem;
+        border-radius: 10%;
+        margin-bottom: 3rem;
+    }
+    .des{
+        max-width: 95%;
+    }
+}
+    
+@media only screen and (max-width: 500px) {
+    header {
+        flex-direction: row-reverse; 
+        align-items: center;
+    }
+
+    .logo {
+        order: 2; 
+    }
+
+    nav {
+        order: 1;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-end; 
+        display: none;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+        margin-right: 0px;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-self: flex-end;
+    }
+    .para{
+        max-width: 100%;
+        margin-left: 0rem;
+        margin-top: 3rem;
+    }
+    .imgG {
+        max-width: 80%;
+        height: auto;
+        margin-top: 3rem;
+        border-radius: 10%;
+        margin-bottom: 3rem;
+    }
+    .des{
+        max-width: 95%;
+    }
+}

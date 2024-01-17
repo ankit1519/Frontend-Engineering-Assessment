@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/get.css">
+    <title>Get Started with GloBud</title>
+</head>
+
+<body>
+    
+    <header>
+        
+        <img src="../image/logo.png" alt="logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./feature.html">Features</a></li>
+                <li><a href="./get.html">Get Started</a></li>
+            </ul>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div>--</div>
+            <div>--</div>
+            <div>--</div>
+        </div>
+
+       
+       
+    
+    </header>
+
+   
+    <main>
+        <div class="container">
+            <h1>Get started with GloBud</h1>
+        </div>
+        
+
+        <form id="signupForm">
+            <label for="signupName">Full Name:</label>
+            <input type="text" id="signupName" name="signupName" required>
+
+            <label for="signupEmail">Email Address:</label>
+            <input type="email" id="signupEmail" name="signupEmail" required>
+
+            <label for="signupPassword">Password:</label>
+            <input type="password" id="signupPassword" name="signupPassword" required>
+
+            <button type="button" onclick="signup()">Sign Up</button>
+        </form>
+
+        <p class="already">Already have an account? <a href="login.html">Log in here</a>.</p>
+
+    </main>
+    <script  src="../app/auth.js"></script>
+</body>
+
+</html>
